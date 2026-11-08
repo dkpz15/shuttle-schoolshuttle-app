@@ -138,7 +138,7 @@ CREATE TABLE `productreviews` (
 --
 
 INSERT INTO `productreviews` (`id`, `productId`, `quality`, `price`, `value`, `name`, `summary`, `review`, `reviewDate`) VALUES
-(5, 1, 5, 5, 5, 'Darren Marcellino Setiawan', 'Kualitas', 'Bagus', '2024-01-18 15:26:41');
+(5, 1, 5, 5, 5, 'Budi Utama', 'Kualitas', 'Bagus', '2024-01-18 15:26:41');
 
 -- --------------------------------------------------------
 
@@ -268,7 +268,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `contactno`, `password`, `shippingAddress`, `shippingState`, `shippingCity`, `shippingPincode`, `billingAddress`, `billingState`, `billingCity`, `billingPincode`, `regDate`, `updationDate`) VALUES
-(4, 'Darren ', 'darren@gmail.com', 12345, '202cb962ac59075b964b07152d234b70', 'dww', 'wdwd', 'dwdw', 123, 'qwqwq', 'wqqw', 'wqwq', 23, '2024-01-17 16:26:26', NULL);
+(4, 'Budi ', 'budi@gmail.com', 12345, '202cb962ac59075b964b07152d234b70', 'dww', 'wdwd', 'dwdw', 123, 'qwqwq', 'wqqw', 'wqwq', 23, '2024-01-17 16:26:26', NULL);
 
 -- --------------------------------------------------------
 
